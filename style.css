@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    background: linear-gradient(96.67deg, #34a853 0%, #b4d245 100%);
+    padding: 1.5rem 4.5rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.container-1 {
+    background: linear-gradient(to right bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/hero.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.container-1-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 5em;
+}
+
+.nav-bars li{
+    display: inline-block
+}
+.nav-bars a{
+    padding: 0 1em;
+}
+
+#nav-btn{
+    padding: 1em 2em;
+    background-color: #fff;
+}
+#nav-btn a{
+color:#000;
+}
+
+.right {
+    float: right;
+}
+
+.container-1-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 2.5rem;
+    padding-bottom: 3em;
+}
+
+.container-1-content h1 {
+    font-size: 4em;
+}
+
+.container-1-content p {
+    font-size: 1.5em;
+}
+
+.container-1-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8em;
+}
+
+.container-2 {
+    background-color:rgba(249, 250, 251, 0.99);
+    padding: 2.5%;
+}
+
+.container-2-items, .container-2-items-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-2-items-2 img{
+    padding: 0.2em 2em;
+}
+
+.container-3 {
+    padding: 3em 4em;
+}
+
+.container-3 h2 {
+    color: #2c3134;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+.why-image img {
+    width: 450px;
+}
+
+.container-3-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-3-articles {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-flow:wrap;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.sub-container-3-articles {
+   width: 40%;
+}
+
+.sub-container-3-articles h4{
+    font-size: 1.5em;
+}
+
+.sub-container-3-articles p{
+    font-size: 1em;
+    line-height: 1.5;
+    color: grey;
+}
+
+.container-4 {
+    /* text-align: center; */
+    padding: 3em;
+    background-color: rgba(249,250,251,0.7);
+}
+
+.container-4-top {
+    font-size: 1.35em;
+    text-align: center;
+    color: #2c3134;
+    max-width: 27.5em;
+    margin: 0 auto;
+    padding-bottom: 5em;
+}
+
+.container-4-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-4-bottom-content {
+    padding: 3em;
+    width: 50%;
+}
+
+.container-4-bottom-content h4{
+    font-weight: lighter;
+    font-size: 1.6em;
+    padding-bottom: 1.5em;
+}
+
+.container-4-bottom-content p{
+    padding-bottom: 0.5em;
+}
+
+.container-5 {
+    background-color: rgba(245,249,231,0.7);
+    padding: 5em;
+}
+
+
+.container-5 h2 {
+    text-align: center;
+    color: #343a40;
+    font-size: 2.5em;
+    padding-bottom: 2em;
+}
+
+.container-5 p {
+    font-size: 1.1em;
+    opacity: 0.5;
+    font-weight: normal;
+}
+
+.container-5-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-5-card {
+    padding: 3.5em;
+    margin: 1em;
+    line-height: 2em;
+    width: 30%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.container-5-card-content ul{
+    padding: 0.5em;
+    list-style-type: circle;
+}
+
+.LinkedIn{
+    position:absolute;
+    bottom: 20px;
+}
+
+.container-6-top {
+    padding-top: 4em;
+    text-align: center;
+}
+
+.container-6-top h4{
+    padding-bottom: 1em;
+}
+
+.container-6-top img {
+    padding: 1em;
+}
+
+.container-6-top h4 {
+    color: #35a555;
+}
+
+.container-6-mid {
+    padding: 4em;
+    margin: 5em;
+    color: white;
+    background-color: #35a555;
+}
+
+.container-6-mid h4{
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.container-6-mid h6{
+    font-size: 1.5em;
+    padding-bottom: 3em;
+    opacity: 0.6;
+    text-align: center;
+    font-weight: normal;
+}
+
+.conntainer-6-mid-i ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0em;
+    line-height: 2em;
+    justify-content: space-between;
+}
+
+.container-6-bottom {
+    color: white;
+    padding: 2.5em 7.5em;
+}
+
+.container-6-bottom h3{
+    font-size: 2em;
+    color: #343a40;
+}
+
+.news-top {
+    display: flex;
+    
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 2.5em;
+}
+
+.news {
+    width: 5em;
+    padding: 1em;
+    margin: 1em;
+    width: 30%;
+    height: 540px;
+    cursor: pointer;
+    position: relative;
+}
+
+.one {
+    background: linear-gradient(359.8deg, #34a853 .12%, rgba(52,168,83,0) 99.77%), url(images/indeed.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.two {
+    background: linear-gradient(359.8deg, #34a853 .12%, rgba(52,168,83,0) 99.77%), url(images/2.png) no-repeat center center;
+    background-size: cover;
+}
+
+.three {
+    background: linear-gradient(359.8deg, #34a853 .12%, rgba(52,168,83,0) 99.77%), url(images/sterling.png) no-repeat center center;
+    background-size: cover;
+}
+
+.abs {
+    position: absolute;
+    bottom: 1em;
+}
+
+.abs h4{
+    padding-bottom: 1em;
+}
+
+.container-7 {
+    color: white;
+    width: 100%;
+    background-color: #343a40;
+    margin: 0;
+    padding: 5em;
+}
+
+.container-7-top {
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.container-7-top h3{
+    font-size: 3em;
+    padding: 0.5em;
+    padding-bottom: 2em;
+}
+
+.container-7-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 2em;
+    padding-top: 4em;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.title {
+    font-size: 0.9em;
+    color: grey;
+}   
+
+span {
+    color: #b4d245;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width:991px){
+
+    .nav-bars{
+        display: none;
+    }
+
+    .container-1-content h1{
+        font-size: 2em;
+        padding-bottom: 1em;
+    }
+
+    .container-1-content p{
+        font-size: 1em;
+    }
+
+    .container-3 {
+        padding: 3em 1em;
+    }
+
+    .why-image img {
+        width: 300px;
+        padding-bottom: 1em;
+    }
+
+    .container-3 h2 {
+        font-size: 1.5em;
+    }
+
+    .container-3 h4 {
+        font-size: 1em;
+        padding: 1em;
+    }
+
+    .container-3-content {
+        flex-wrap:wrap;
+    }
+
+    .container-3-articles{
+        display: block;
+        width: 100%;
+    }
+
+    .sub-container-3-articles {
+        width: 100%;
+    }
+
+    .container-4 {
+        padding: 0;
+    }
+
+    .container-4-bottom{
+        flex-wrap: wrap;
+    }
+    
+    .container-4-bottom-content {
+    text-align: center;
+    width: 100%;
+    }
+
+    .container-4-bottom-content h4{
+        font-size: 15px;
+    }
+
+    .container-4-bottom img{
+        width: 300px;
+    }
+
+    .container-5 {
+        padding: 0;
+    }
+
+    .container-5-card {
+        width: 100%;
+
+    }
+
+    .container-6-mid {
+        margin: 0;
+        padding: 1em;
+    }
+
+    .container-5-card-content p{
+        font-size: 0.9em;
+    }
+
+    .container-6-mid h4{
+        font-size: 1.5em;
+    }
+    
+    .container-6-mid h6{
+        font-size: 1em;
+    }
+    
+    .container-6-mid-i ul{
+        line-height: 1em;
+    }
+
+    .conntainer-6-mid-i ul li{
+        text-align: left;
+    }
+
+    .container-6-bottom {
+        padding: 1em;
+    }
+
+    .container-6-bottom h3{
+        font-size: 1em;
+    }
+
+    .news-top {
+        flex-wrap: wrap;
+    }
+
+    .news {
+        width: 100%;
+        height: 340px;
+    }
+
+    .container-7-top h3{
+        font-size: 2em;
+    }
+
+    .container-7-bottom p{
+        font-size: 1em;
+    }
+
+    .container-7-bottom h4{
+        font-size: 1em;
+    }
+
+    .container-7-bottom ul li a{
+        font-size: 1em;
+    }
+
+    .name {
+        font-size: 1.25em;
+    }
+    
+    .title {
+        font-size: 0.75em;
+    } 
+}
